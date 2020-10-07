@@ -5,8 +5,8 @@ FROM ubuntu:bionic
 RUN apt-get update \
 	&& apt-get install -y \
 		nano \
-    git \
-    ssh \
+    		git \
+    		ssh \
 		sudo \
 		wget \
 		software-properties-common ;\
